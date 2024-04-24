@@ -3,5 +3,5 @@ let accountEmail="siddhesh@gamil.com"
 var accountPass="12345"
 accountCity="Pune"
 
-
+console.log(accountEmail," ",accountCity)
 console.log(accountId)
