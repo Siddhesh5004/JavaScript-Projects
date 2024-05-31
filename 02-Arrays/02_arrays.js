@@ -18,6 +18,7 @@ console.log(real_otherArr);
 
 (Array.isArray("siddhesh"))
 console.log(Array.from("siddhesh"));
+console.log(Array.from({name: "Siddhesh"}));
 
 let score1=100
 let score2=200

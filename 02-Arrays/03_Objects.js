@@ -15,6 +15,22 @@ const jsuser={
 
 }
 
-console.log(jsuser.email);
-console.log(jsuser["email"]);
-console.log(jsuser[mySym]);
+// console.log(jsuser.email);
+// console.log(jsuser[mySym]);
+// console.log(typeof [mySym]);
+
+jsuser.email = "sidd@gmail.com"
+// Object.freeze(jsuser)
+jsuser.location="banglore"
+// console.log(jsuser);
+
+jsuser.greeting = function(){
+    console.log('hello jsuser ,${this.age}');
+}
+
+jsuser.greetingTwo = function(){
+    console.log('hello jsuser');
+}
+
+console.log(jsuser.greeting());
+console.log(jsuser.greetingTwo());
