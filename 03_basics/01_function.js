@@ -31,7 +31,6 @@ const result =addtwonos(3,5) // function called
 function loginuser (username){
     return `${username} just logged in `
 }
-
 console.log((loginuser ('siddhesh'))); 
 
 
