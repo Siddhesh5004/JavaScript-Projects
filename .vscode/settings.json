@@ -1,0 +1,5 @@
+{
+    "accessibility.accessibleView.closeOnKeyPress": true,
+    "diffEditor.experimental.showEmptyDecorations": true,
+    "editor.minimap.autohide": false
+}
