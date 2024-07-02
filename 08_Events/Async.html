@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>chai aur code with hitesh and siddhesh</h1>
+    <button id="stop">Stop</button>
+    <script>
+        const saySiddhesh = function(){
+            console.log('siddhesh');
+        }
+        const changeText = function(){
+           document.querySelector('h1').innerHTML = "best JS Series CAC"  
+        }
+       
+            const changeMe = setTimeout(changeText ,2000)
+
+            document.querySelector('#stop').addEventListener('click', function(){
+               clearTimeout(changeMe)
+               console.log('stopped');
+         
+            })
+
+            setTi    </script>
+</body>
+</html>
