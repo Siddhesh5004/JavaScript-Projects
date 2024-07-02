@@ -8,4 +8,3 @@
 
 4) Guess the number 
 
-5)
