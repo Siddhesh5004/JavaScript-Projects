@@ -4,19 +4,15 @@
 
 1. Click Event
 
-element.addEventListener('click', function(event) {
-   
-});
+element.addEventListener('click', function(event) {});
+
 2. Hover Event
 JavaScript doesn't have a direct hover event, but you can use mouseover and mouseout events.
 
-element.addEventListener('mouseover', function(event) {
-    
-});
+element.addEventListener('mouseover', function(event) {});
 
-element.addEventListener('mouseout', function(event) {
-    
-});
+element.addEventListener('mouseout', function(event) {});
+
 3. Load Event
 
 window.addEventListener('load', function(event) {
