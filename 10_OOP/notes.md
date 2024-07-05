@@ -1,26 +1,22 @@
-# javascript is prototype-based language
+
 # javascript and classes 
+ Javascript is prototype-based language.
+
 
 ## OOP (Programming paradigmn)
-## Object 
 -collection of properties and methods
 -toLowerCase / toUpperCase
 
-## why use OOP 
-
 ## parts/components of OOP
-
 Object literal
 -Constructor function
 -Prototypes
 -classes
 -Instances(new,this)
 
-
-
 ## 4 pillars
-Abstraction
-Encapsulation
-Inheritance
-Polymorphism [many forms]
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism [many forms]
 
