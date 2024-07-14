@@ -35,5 +35,20 @@
 
         </div>
     </div>
+    <script>
+        const apiKey = "468a8606281bb2980916ab6b8ec9def5";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=pune";
+
+        async function checkWeather(){
+            const response = await fetch(apiUrl + `&appid=${apiKey}`);
+            var data =await response.json();
+
+            console.log(data);
+
+        }
+        checkWeather();
+
+
+    </script>
 </body>
 </html>
