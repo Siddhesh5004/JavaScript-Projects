@@ -1,2 +1,2 @@
-# JS-learning
- Repository made for leaning js and its frameworks.
+# JavaScript-Projects
+ Repository made for Learning JavaScript and its Frameworks.
